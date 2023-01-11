@@ -16,6 +16,12 @@ img {
   margin-bottom: 1rem;
   box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.164);
 }
+.product-details .steps > * p {
+  overflow: hidden;
+  max-height: 100px; /* initialise la hauteur */
+  transition: all 0.25s; /* transition sur tous qui concerne le p */
+  margin-bottom: 0;
+}
 .product-details .steps > * h2 {
   font-size: 1.3rem;
   position: relative;
@@ -35,6 +41,7 @@ img {
   position: absolute;
   right: 0;
   top: 50%;
+  transition: all 0.25s; /*  */
 }
 
 .step-close h2 {
@@ -44,5 +51,5 @@ img {
   transform: rotate(-45deg) translateY(-50%) !important;
 }
 .step-close p {
-  display: none;
+  max-height: 0px !important; /* reduit la hauteur 0, un display none serait plus simple mais pas de transition possible */
 }/*# sourceMappingURL=product.css.map */
