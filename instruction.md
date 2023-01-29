@@ -10,3 +10,11 @@
 ### Prérequis
 1. Installer et utiliser l'extension Live Sass Compiler pour le style
 2. Installer et utiliser l'extension Live Server pour actualiser la page à chaque sauvegarde
+
+# Exo n°2
+1. Ajouter les autres images thumbnail à guauche
+2. Au hover, afficher la grand image qui correspond
+3. Au hover de la grande image ajouter un zoom x2
+
+## Exemple : 
+https://www.zalando.fr/threadbare-pullover-knipe-pullover-navy-thc22q01w-k11.html
